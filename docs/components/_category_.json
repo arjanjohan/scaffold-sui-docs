@@ -1,0 +1,8 @@
+{
+  "label": "🧩 Components",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Explore the reusable components provided by Scaffold Move for building Aptos dApps efficiently."
+  }
+}
