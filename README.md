@@ -1,4 +1,4 @@
-# Scaffold IOTA Docs
+# [Scaffold IOTA Docs](https://scaffold-iota-docs.vercel.app/)
 
 This website contains Scaffold IOTA Documentation and is built using [Docusaurus 2](https://docusaurus.io/).
 

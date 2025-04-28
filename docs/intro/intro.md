@@ -10,11 +10,11 @@ slug: /
 ⚙️ Built using Move, IOTA TS SDK, Next.js, Tailwind CSS, and TypeScript.
 
 * 🛫 **Deployment Scripts**: Simplify and automate your deployment workflow.
-* ✅ **Module Hot Reload**: Your frontend automatically adapts to changes in your smart contracts as you redeploy them.
-* 🪝 **Custom Hooks**: A collection of React hooks to simplify interactions with smart contracts.
+* ✅ **Hot Contract Reload**: Your frontend automatically adapts to changes in your smart contracts as you redeploy them.
+* 🪝 **Custom Hooks**: A collection of React hooks to simplify interactions with the IOTA blockchain
 * 🧱 **Components**: A library of common Web3 components to rapidly build your frontend.
 * 🔐 **Wallet Integration**: Connect to any IOTA-compatible wallet and interact with the IOTA network directly from your frontend.
 
 Perfect for hackathons, prototyping, or launching your next IOTA project!
 
-![Debug Modules tab](/img/debug.png)
+![Landing page](/img/landing-page.png)

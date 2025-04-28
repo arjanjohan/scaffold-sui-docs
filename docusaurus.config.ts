@@ -85,11 +85,11 @@ Styling Framework:
 
 ### Core Features
 
-* 🛫 **Deployment Scripts**: Simplify and automate your deployment workflow
-* ✅ **Hot Contract Reload**: Your frontend automatically adapts to changes in your smart contracts
+* 🛫 **Deployment Scripts**: Simplify and automate your deployment workflow.
+* ✅ **Hot Contract Reload**: Your frontend automatically adapts to changes in your smart contracts as you redeploy them.
 * 🪝 **Custom Hooks**: A collection of React hooks to simplify interactions with the IOTA blockchain
-* 🧱 **Components**: A library of common Web3 components to rapidly build your frontend
-* 🔐 **Wallet Integration**: Connect to any IOTA compatible wallet and interact with the IOTA blockchain
+* 🧱 **Components**: A library of common Web3 components to rapidly build your frontend.
+* 🔐 **Wallet Integration**: Connect to any IOTA-compatible wallet and interact with the IOTA network directly from your frontend.
 
 ## Components
 
