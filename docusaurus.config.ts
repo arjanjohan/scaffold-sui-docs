@@ -194,9 +194,6 @@ ${allMdx.filter(content => content.includes('contributing/')).join('\n\n')}`;
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
-        theme: {
-          customCss: './src/css/custom.css',
-        },
       } satisfies Preset.Options,
     ],
   ],
