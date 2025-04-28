@@ -4,10 +4,10 @@ Fetches the balance of a specific coin type for an address.
 
 ## Usage
 ```tsx
-const { balance, isLoading, error } = useGetCoinBalance("0x2::sui::SUI", address);
+const { balance, isLoading, error } = useGetCoinBalance("0x2::iota::IOTA", address);
 ```
 
-This example fetches the SUI balance for the specified address.
+This example fetches the IOTA balance for the specified address.
 
 ## Parameters
 | Parameter | Type | Description |

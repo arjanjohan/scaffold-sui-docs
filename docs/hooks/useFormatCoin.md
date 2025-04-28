@@ -6,13 +6,13 @@ Formats a coin balance based on standard coin display logic. If the balance is l
 ```tsx
 const [formattedBalance, coinSymbol, queryResult] = useFormatCoin({
     balance: BigInt(1000000000),
-    coinType: "0x2::sui::SUI",
+    coinType: "0x2::iota::IOTA",
     format: CoinFormat.ROUNDED,
     showSign: false
 });
 ```
 
-This example formats a balance of 1 SUI (1000000000 MIST) with rounded formatting.
+This example formats a balance of 1 IOTA with rounded formatting.
 
 ## Parameters
 | Parameter | Type | Description |

@@ -1,34 +1,29 @@
 # Chains
 
-In `chains.ts` the different Aptos and Aptos-based chains are defined and exported as `defaultChains`.
+In `chains.ts` the different IOTA chains are defined and exported as `defaultChains`.
 
-``` ts
+```ts
 export type Chain = {
   id: string;
   name: string;
-  network: Network;
-  fullnode?: string;
-  indexer?: string;
+  url: string;
+  isTestnet: boolean;
   faucet?: string;
-  block_explorer?: string;
 };
 ```
-The default Aptos chains only require the mandatory fields (id, name, and network). However, for custom chains, it's recommended to provide all fields to ensure a fully functional dapp.
 
-:::warning
-The Aptos devnet is frequently reset, which can result in changes to the chainId. If this occurs, you should:
-1. Redeploy your modules (this process always uses the correct chainId)
-2. Manually update the chainId for devnet in `packages/nextjs/utils/scaffold-move/chains.ts`
-:::
+The default IOTA chains include:
+- IOTA Devnet
+- IOTA Testnet
+
+Each chain configuration includes the necessary endpoints for interacting with the network.
 
 ## Parameters
 
-| Parameter                      | Type    | Description                                     |
-| ------------------------------ | ------- | ----------------------------------------------- |
-| **id**                         | string  | Address of the module                           |
-| **name**                       | string  | Name of the module                              |
-| **network**                    | Network | Network  as defined in the Aptos TypeScript SDK |
-| **indexer** (optional)         | string  | URL for the indexer                             |
-| **faucet** (optional)          | string  | URL for the faucet                              |
-| **block\_explorer** (optional) | string  | URL for the block explorer                      |
-
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| **id** | string | Unique identifier for the chain |
+| **name** | string | Human-readable name of the chain |
+| **url** | string | Fullnode URL for the chain |
+| **isTestnet** | boolean | Whether this is a testnet chain |
+| **faucet** (optional) | string | URL for the faucet if available |

@@ -4,10 +4,10 @@ Fetches coins of a specific type for an address with pagination support.
 
 ## Usage
 ```tsx
-const { data, fetchNextPage, hasNextPage } = useGetCoins("0x2::sui::SUI", address);
+const { data, fetchNextPage, hasNextPage } = useGetCoins("0x2::iota::IOTA", address);
 ```
 
-This example fetches SUI coins for the specified address with pagination, allowing you to load more coins as needed.
+This example fetches IOTA coins for the specified address with pagination, allowing you to load more coins as needed.
 
 ## Parameters
 | Parameter | Type | Description |
