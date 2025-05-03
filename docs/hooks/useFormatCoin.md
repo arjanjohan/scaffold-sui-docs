@@ -17,7 +17,7 @@ This example formats a balance of 1 IOTA with rounded formatting.
 ## Parameters
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| **balance** | bigint \| number \| string \| null | The coin balance to format |
+| **balance**  (optional) | bigint | number | string  | The coin balance to format |
 | **coinType** (optional) | string | The type of the coin (defaults to IOTA) |
 | **format** (optional) | CoinFormat | Format type (ROUNDED or FULL) |
 | **showSign** (optional) | boolean | Whether to show a + sign for positive values |

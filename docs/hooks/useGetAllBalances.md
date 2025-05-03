@@ -12,7 +12,7 @@ This example fetches all token balances for the specified address, including IOT
 ## Parameters
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| **address** | string \| null \| undefined | The address to fetch balances for |
+| **address** | string | undefined | The address to fetch balances for |
 
 ## Return Value
 * `data`: Array of token balances, filtered and sorted

@@ -12,7 +12,7 @@ This example fetches an object by its ID, automatically normalizing the address 
 ## Parameters
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| **objectId** | string \| null | The ID of the object to fetch |
+| **objectId** | string | The ID of the object to fetch |
 
 ## Return Value
 * `data`: The object data with all requested options

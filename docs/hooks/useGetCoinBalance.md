@@ -17,7 +17,7 @@ This example fetches the IOTA balance for the specified address
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | **coinType** | string | The type of coin to fetch balance for |
-| **address** (optional) | string \| null | The address to fetch balance for |
+| **address** | string | The address to fetch balance for |
 | **maxCoinsPerRequest** (optional) | number | Maximum number of coins to fetch per request (default: 10) |
 
 ## Return Value

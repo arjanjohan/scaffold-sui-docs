@@ -12,8 +12,8 @@ This example fetches the normalized Move module information for the specified pa
 ## Parameters
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| **packageId** (optional) | string \| null | The package ID containing the module |
-| **moduleName** (optional) | string \| null | The name of the module |
+| **packageId** | string | The package ID containing the module |
+| **moduleName** | string | The name of the module |
 
 ## Return Value
 * `data`: The normalized Move module information

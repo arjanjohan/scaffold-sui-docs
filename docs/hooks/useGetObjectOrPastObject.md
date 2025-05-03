@@ -12,7 +12,7 @@ This example fetches an object by its ID, and if the object is not found or dele
 ## Parameters
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| **objectId** (optional) | string \| null | The ID of the object to fetch |
+| **objectId** | string | The ID of the object to fetch |
 
 ## Return Value
 * `data`: The object data with all requested options

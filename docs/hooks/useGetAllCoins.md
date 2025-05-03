@@ -13,7 +13,7 @@ This example fetches all IOTA coins for the specified address, making multiple r
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | **coinType** | string | The type of coin to fetch |
-| **address** (optional) | string \| null | The address to fetch coins for |
+| **address** | string | The address to fetch coins for |
 
 ## Return Value
 * `data`: Array of all coin objects

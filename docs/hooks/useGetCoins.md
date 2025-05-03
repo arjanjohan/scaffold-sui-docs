@@ -13,7 +13,7 @@ This example fetches IOTA coins for the specified address with pagination, allow
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | **coinType** | string | The type of coin to fetch |
-| **address** (optional) | string \| null | The address to fetch coins for |
+| **address** | string | The address to fetch coins for |
 | **maxCoinsPerRequest** (optional) | number | Maximum number of coins to fetch per request (default: 10) |
 
 ## Return Value
