@@ -204,12 +204,12 @@ ${allMdx.filter(content => content.includes('contributing/')).join('\n\n')}`;
       title: '🏗 Scaffold IOTA Docs',
       items: [
         {
-          href: 'https://github.com/arjanjohan/scaffold-iota',
+          href: 'https://github.com/arjanjohan/scaffold-iota-docs',
           label: 'GitHub Docs',
           position: 'right',
         },
         {
-          href: 'https://github.com/arjanjohan/scaffold-iota-docs',
+          href: 'https://github.com/arjanjohan/scaffold-iota',
           label: 'GitHub Scaffold IOTA',
           position: 'right',
         },

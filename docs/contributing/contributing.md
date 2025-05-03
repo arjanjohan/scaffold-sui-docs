@@ -3,13 +3,13 @@ sidebar_position: 8
 ---
 # 🙏 Contributing to Scaffold IOTA
 
-Scaffold IOTA has successfully implemented core features essential for IOTA developers, providing a robust foundation for building decentralized applications. The current version offers a streamlined development experience with hot module reloading, custom hooks, and seamless wallet integration.
+Scaffold IOTA has successfully implemented core features essential for IOTA developers, providing a robust foundation for building decentralized applications. The current version offers a streamlined development experience with hot contract reloading, custom hooks, and seamless wallet integration.
 
 ### New features planned:
 
 - Add a testing framework for IOTA smart contracts.
 - Enhance documentation and tutorials for easier onboarding.
-- Develop additional pre-built components for common dApp functionalities.
+- Develop more pre-built hooks and components for common dApp functionalities.
 - Integrate different templates/configurations in Scaffold IOTA.
 
 ### Contributing
