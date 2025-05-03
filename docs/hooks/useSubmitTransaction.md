@@ -1,6 +1,6 @@
 # useSubmitTransaction
 
-Submits a transaction to a Move module with automatic signing and execution.
+Submits a transaction to a Move module with automatic signing and execution. This is the base transaction hook that `useScaffoldSubmitTransaction` builds upon.
 
 ## Usage
 ```tsx
@@ -21,8 +21,11 @@ This example submits a transaction to call a function in the specified module wi
 ## Return Value
 * `submitTransaction`: Function to submit a transaction with the following parameters:
   * `functionName`: Name of the function to call
-  * `args`: Array of arguments to pass to the function
-  * `tyArgs`: Array of type arguments for generic functions
+  * `args`: Array of arguments to pass to the function (optional)
+  * `tyArgs`: Array of type arguments for generic functions (optional)
 * `transactionInProcess`: Boolean indicating if a transaction is currently being processed
 * `transactionResponse`: The response from the transaction submission
 * `clearTransactionResponse`: Function to clear the transaction response
+
+## Notes
+- Consider using `useScaffoldSubmitTransaction` for scaffold modules to get type safety and automatic address resolution
