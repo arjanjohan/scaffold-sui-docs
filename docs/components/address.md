@@ -17,6 +17,9 @@ When clicked, the address links to:
 
 This component is useful for displaying user addresses, contract addresses, or any IOTA address in a user-friendly manner.
 
+## Screenshot
+![wallet button example](../../static/img/address.png)
+
 ## Usage
 
 ```tsx

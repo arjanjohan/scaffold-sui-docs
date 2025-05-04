@@ -9,6 +9,9 @@ A component that displays transaction status and results in a user-friendly form
 - Automatically integrates with the current network's explorer
 - Clean, centered presentation in a rounded container
 
+## Screenshot
+![wallet button example](../../static/img/receipt.png)
+
 ## Usage
 
 ```tsx
