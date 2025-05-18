@@ -4,13 +4,13 @@ sidebar_position: 3
 
 # 🪝 Hooks
 
-Scaffold IOTA provides a collection of custom React hooks designed to simplify interactions with your deployed smart contracts. These hooks offer an easy-to-use interface for reading from and writing to the IOTA blockchain.
+Scaffold Sui provides a collection of custom React hooks designed to simplify interactions with your deployed smart contracts. These hooks offer an easy-to-use interface for reading from and writing to the Sui blockchain.
 
 ## Core Hooks
 - `useTargetNetwork` - Manage network selection
 - `useModuleAddress` - Get deployed module addresses
 - `useSubmitTransaction` - Submit transactions to the blockchain
-- `useScaffoldSubmitTransaction` - Type-safe transaction submission for modules you deployed using Scaffold IOTA
+- `useScaffoldSubmitTransaction` - Type-safe transaction submission for modules you deployed using Scaffold Sui
 
 ## Coin Management
 - `useFormatCoin` - Format coin amounts for display

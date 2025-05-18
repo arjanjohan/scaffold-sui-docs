@@ -1,6 +1,6 @@
 # Object Utilities
 
-Utilities for working with IOTA objects and their properties.
+Utilities for working with Sui objects and their properties.
 
 ## Functions
 
@@ -12,7 +12,7 @@ Parses and validates an image URL from an object's display data, supporting both
 
 ### parseObjectType
 ```ts
-function parseObjectType(data: IotaObjectResponse): string
+function parseObjectType(data: SuiObjectResponse): string
 ```
 Extracts the type of an object from its response data.
 

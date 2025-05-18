@@ -1,12 +1,12 @@
-# [Scaffold IOTA Docs](https://scaffold-iota-docs.vercel.app/)
+# [Scaffold Sui Docs](https://scaffold-sui-docs.vercel.app/)
 
-This website contains Scaffold IOTA Documentation and is built using [Docusaurus 2](https://docusaurus.io/).
+This website contains Scaffold Sui Documentation and is built using [Docusaurus 2](https://docusaurus.io/).
 
 ## Links
 
-- [Deployed Documentation](https://scaffold-iota-docs.vercel.app/)
-- [Depoyed Scaffold IOTA instance](https://scaffold-iota.vercel.app/)
-- [Scaffold IOTA Github](https://github.com/arjanjohan/scaffold-iota)
+- [Deployed Documentation](https://scaffold-sui-docs.vercel.app/)
+- [Depoyed Scaffold Sui instance](https://scaffold-sui.vercel.app/)
+- [Scaffold Sui Github](https://github.com/arjanjohan/scaffold-sui)
 
 ## Team
 

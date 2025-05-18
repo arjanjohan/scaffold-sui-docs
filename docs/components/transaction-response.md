@@ -15,7 +15,7 @@ A component that displays transaction status and results in a user-friendly form
 ## Usage
 
 ```tsx
-import { TransactionResponse } from "~~/components/scaffold-iota";
+import { TransactionResponse } from "~~/components/scaffold-sui";
 const result = await submitTransaction("create", []);
 
 // In your component

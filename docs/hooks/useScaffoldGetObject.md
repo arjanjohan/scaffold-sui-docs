@@ -1,6 +1,6 @@
 # useScaffoldGetObject
 
-A type-safe wrapper around `useGetObject` specifically for modules deployed using Scaffold IOTA, automatically handling module address resolution.
+A type-safe wrapper around `useGetObject` specifically for modules deployed using Scaffold Sui, automatically handling module address resolution.
 
 ## Usage
 ```tsx

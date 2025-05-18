@@ -1,6 +1,6 @@
 # Chains
 
-In `chains.ts` the different IOTA chains are defined and exported as `defaultChains`.
+In `chains.ts` the different Sui chains are defined and exported as `defaultChains`.
 
 ```ts
 export type Chain = {
@@ -12,9 +12,9 @@ export type Chain = {
 };
 ```
 
-The default IOTA chains include:
-- IOTA Devnet
-- IOTA Testnet
+The default Sui chains include:
+- Sui Devnet
+- Sui Testnet
 
 Each chain configuration includes the necessary endpoints for interacting with the network.
 

@@ -4,18 +4,18 @@ slug: /links
 
 # 🔗 Links
 
-Below are some relevant links for developing with Scaffold IOTA or IOTA in general.
+Below are some relevant links for developing with Scaffold Sui or Sui in general.
 
-### Scaffold IOTA Resources
+### Scaffold Sui Resources
 
-* [Scaffold IOTA GitHub Repository](https://github.com/arjanjohan/scaffold-iota)
-* [Scaffold IOTA Documentation GitHub Repository](https://github.com/arjanjohan/scaffold-iota-docs)
-* [Scaffold IOTA Demo Application](https://scaffold-iota.vercel.app/)
-* [Scaffold IOTA Documentation Website](https://scaffold-iota-docs.vercel.app/)
+* [Scaffold Sui GitHub Repository](https://github.com/arjanjohan/scaffold-sui)
+* [Scaffold Sui Documentation GitHub Repository](https://github.com/arjanjohan/scaffold-sui-docs)
+* [Scaffold Sui Demo Application](https://scaffold-sui.vercel.app/)
+* [Scaffold Sui Documentation Website](https://scaffold-sui-docs.vercel.app/)
 
-### IOTA and Move Development Resources
+### Sui and Move Development Resources
 
-* [IOTA Developer Documentation](https://docs.iota.org)
-* [IOTA Developer Cheat sheet](https://docs.iota.org/developer/dev-cheat-sheet)
-* [IOTA Builder Discord](https://discord.gg/iota-builders)
-* [IOTA GitHub](https://www.github.com/iotaledger/)
+* [Sui Developer Documentation](https://docs.sui.org)
+* [Sui Developer Cheat sheet](https://docs.sui.org/developer/dev-cheat-sheet)
+* [Sui Builder Discord](https://discord.gg/sui-builders)
+* [Sui GitHub](https://www.github.com/suiledger/)

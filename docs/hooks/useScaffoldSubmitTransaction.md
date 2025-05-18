@@ -38,4 +38,4 @@ This example shows how to submit a transaction to the Counter module's increment
 
 ## Notes
 - Uses `deployedModules.ts` to resolve module addresses
-- To interact with modules not deployed with Scaffold IOTA, use `useScaffoldSubmitTransaction` instead.
+- To interact with modules not deployed with Scaffold Sui, use `useScaffoldSubmitTransaction` instead.

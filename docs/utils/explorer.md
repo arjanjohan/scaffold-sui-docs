@@ -1,6 +1,6 @@
 # Explorer Utilities
 
-Utilities for generating explorer links for various IOTA entities.
+Utilities for generating explorer links for various Sui entities.
 
 ## Functions
 
@@ -12,7 +12,7 @@ function getExplorerLink(
     network: NetworkId,
 ): string | null
 ```
-Generates an explorer link for various IOTA entities.
+Generates an explorer link for various Sui entities.
 
 ### getObjectUrl
 ```ts

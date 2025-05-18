@@ -13,7 +13,7 @@ This example fetches objects owned by the specified address, with optional filte
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | **address** | string | The address to fetch owned objects for |
-| **filter** (optional) | IotaObjectDataFilter | Filter to apply to the objects |
+| **filter** (optional) | SuiObjectDataFilter | Filter to apply to the objects |
 | **maxObjectRequests** (optional) | number | Maximum number of objects to fetch per request (default: 6) |
 
 ## Return Value

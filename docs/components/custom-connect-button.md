@@ -1,6 +1,6 @@
 # CustomConnectButton
 
-Scaffold IOTA includes a custom Wallet Connect button with the following features:
+Scaffold Sui includes a custom Wallet Connect button with the following features:
 
 - **Balance Display**: Shows native token balance of connected address.
 - **Network Name**: Displays connected network name.
@@ -12,6 +12,6 @@ Scaffold IOTA includes a custom Wallet Connect button with the following feature
 
 ## Usage
 ```tsx
-import { CustomConnectButton } from "~~/components/scaffold-iota";
+import { CustomConnectButton } from "~~/components/scaffold-sui";
 <CustomConnectButton />
 ```

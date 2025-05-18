@@ -4,10 +4,10 @@ Fetches all coins of a specific type for an address, making multiple requests if
 
 ## Usage
 ```tsx
-const { data: coins, isLoading } = useGetAllCoins("0x2::iota::IOTA", address);
+const { data: coins, isLoading } = useGetAllCoins("0x2::sui::Sui", address);
 ```
 
-This example fetches all IOTA coins for the specified address, making multiple requests if there are more than 100 coins.
+This example fetches all Sui coins for the specified address, making multiple requests if there are more than 100 coins.
 
 ## Parameters
 | Parameter | Type | Description |

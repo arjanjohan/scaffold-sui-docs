@@ -5,13 +5,13 @@ Fetches the balance of a specific coin type for an address by retrieving and sum
 ## Usage
 ```tsx
 const { balance, isLoading, error, isError } = useGetCoinBalance(
-    "0x2::iota::IOTA",
+    "0x2::sui::Sui",
     address,
     maxCoinsPerRequest // optional, defaults to 10
 );
 ```
 
-This example fetches the IOTA balance for the specified address
+This example fetches the Sui balance for the specified address
 
 ## Parameters
 | Parameter | Type | Description |

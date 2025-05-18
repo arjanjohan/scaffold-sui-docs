@@ -6,19 +6,19 @@ Formats a coin balance based on standard coin display logic. If the balance is l
 ```tsx
 const [formattedBalance, coinSymbol, queryResult] = useFormatCoin({
     balance: BigInt(1000000000),
-    coinType: "0x2::iota::IOTA",
+    coinType: "0x2::sui::Sui",
     format: CoinFormat.ROUNDED,
     showSign: false
 });
 ```
 
-This example formats a balance of 1 IOTA with rounded formatting.
+This example formats a balance of 1 Sui with rounded formatting.
 
 ## Parameters
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | **balance**  (optional) | bigint | number | string  | The coin balance to format |
-| **coinType** (optional) | string | The type of the coin (defaults to IOTA) |
+| **coinType** (optional) | string | The type of the coin (defaults to Sui) |
 | **format** (optional) | CoinFormat | Format type (ROUNDED or FULL) |
 | **showSign** (optional) | boolean | Whether to show a + sign for positive values |
 

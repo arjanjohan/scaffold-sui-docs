@@ -15,7 +15,7 @@ When clicked, the address links to:
 1. The block explorer of the connected wallet's network (if a wallet is connected)
 2. The block explorer of the mainnet (if no wallet is connected)
 
-This component is useful for displaying user addresses, contract addresses, or any IOTA address in a user-friendly manner.
+This component is useful for displaying user addresses, contract addresses, or any Sui address in a user-friendly manner.
 
 ## Screenshot
 ![wallet button example](../../static/img/address.png)
@@ -23,8 +23,8 @@ This component is useful for displaying user addresses, contract addresses, or a
 ## Usage
 
 ```tsx
-import { Address } from "~~/components/scaffold-iota";
-import { useCurrentAccount } from "@iota/dapp-kit";
+import { Address } from "~~/components/scaffold-sui";
+import { useCurrentAccount } from "@sui/dapp-kit";
 
 const account = useCurrentAccount();
 <Address address={connectedAccount?.address} />

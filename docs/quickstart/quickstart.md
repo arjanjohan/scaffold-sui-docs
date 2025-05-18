@@ -11,27 +11,27 @@ Before you begin, you need to install the following tools:
 - [Node (>= v18.17)](https://nodejs.org/en/download/)
 - Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
 - [Git](https://git-scm.com/downloads)
-- [IOTA CLI](https://docs.iota.org/developer/getting-started/install-iota)
+- [Sui CLI](https://docs.sui.org/developer/getting-started/install-sui)
 
 ### Quickstart
 
-To get started with Scaffold IOTA, follow the steps below:
+To get started with Scaffold Sui, follow the steps below:
 
 1. Clone this repo & install dependencies
 
 ```
-git clone https://github.com/arjanjohan/scaffold-iota.git
-cd scaffold-iota
+git clone https://github.com/arjanjohan/scaffold-sui.git
+cd scaffold-sui
 yarn install
 ```
 
-2. Then, initialize the IOTA client with this command.
+2. Then, initialize the Sui client with this command.
 
 ```
 yarn client
 ```
 
-This command sets up the IOTA client if it hasnt already. It prompts you to select a network (defaults to IOTA testnet if you just press `Enter`). Finally, you will be prompted to select the key scheme you want to use. If you are unsure which scheme to use just go with the default ed25519 scheme (option 0).
+This command sets up the Sui client if it hasnt already. It prompts you to select a network (defaults to Sui testnet if you just press `Enter`). Finally, you will be prompted to select the key scheme you want to use. If you are unsure which scheme to use just go with the default ed25519 scheme (option 0).
 
 To view the configuration use this command:
 ```
@@ -49,7 +49,7 @@ yarn switch-client <envAlias>
 yarn deploy
 ```
 
-This command deploys the move modules to the network configured in the previous step. The modules are located in `packages/move/sources` and can be modified or replaced to suit your needs. The `yarn deploy` command uses `iota client publish` to publish the modules to the network. After this is executes the script located in `scripts/load-modules.ts` to make the new modules available in the nextjs frontend.
+This command deploys the move modules to the network configured in the previous step. The modules are located in `packages/move/sources` and can be modified or replaced to suit your needs. The `yarn deploy` command uses `sui client publish` to publish the modules to the network. After this is executes the script located in `scripts/load-modules.ts` to make the new modules available in the nextjs frontend.
 
 4. On a second terminal, start your NextJS app:
 

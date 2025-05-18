@@ -7,7 +7,7 @@ Fetches all token balances for a given address, with automatic refetching based 
 const { data: balances, isLoading } = useGetAllBalances(address);
 ```
 
-This example fetches all token balances for the specified address, including IOTA and any other tokens.
+This example fetches all token balances for the specified address, including Sui and any other tokens.
 
 ## Parameters
 | Parameter | Type | Description |

@@ -5,12 +5,12 @@ import fs from "node:fs";
 import path from "node:path";
 
 const config: Config = {
-  title: '🏗 Scaffold IOTA Docs',
-  tagline: 'Open-source toolkit for building on IOTA',
+  title: '🏗 Scaffold Sui Docs',
+  tagline: 'Open-source toolkit for building on Sui',
   // favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://scaffold-iota-docs.vercel.app/',
+  url: 'https://scaffold-sui-docs.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -58,23 +58,23 @@ const config: Config = {
           const { allMdx } = content as { allMdx: string[] };
 
           // Create a structured overview
-          const overview = `# Scaffold IOTA
+          const overview = `# Scaffold Sui
 
-Everything you need to build dApps on IOTA. A modern, clean toolkit for creating and deploying Move smart contract and building user interfaces that interact seamlessly with these contracts.
+Everything you need to build dApps on Sui. A modern, clean toolkit for creating and deploying Move smart contract and building user interfaces that interact seamlessly with these contracts.
 
 ## High level overview
 
 ### Smart Contract Read and Write Operations Patterns
 
-- Read: useView (packages/nextjs/hooks/scaffold-iota/useView.ts)
-- Write: useSubmitTransaction (packages/nextjs/hooks/scaffold-iota/useSubmitTransaction.ts)
-- Objects: useGetObject (packages/nextjs/hooks/scaffold-iota/useGetObject.ts)
+- Read: useView (packages/nextjs/hooks/scaffold-sui/useView.ts)
+- Write: useSubmitTransaction (packages/nextjs/hooks/scaffold-sui/useSubmitTransaction.ts)
+- Objects: useGetObject (packages/nextjs/hooks/scaffold-sui/useGetObject.ts)
 
 You have all the details of our custom hooks in the \`## Hooks\` section from this file.
 
 ### Best Practice Guidance for Components usage
 
-Use Scaffold IOTA components whenever it makes sense, they are located in \`packages/nextjs/components/scaffold-iota\`. You have all the details about components in the \`## Components\` section from this file.
+Use Scaffold Sui components whenever it makes sense, they are located in \`packages/nextjs/components/scaffold-sui\`. You have all the details about components in the \`## Components\` section from this file.
 
 ### UI/Design System
 
@@ -87,9 +87,9 @@ Styling Framework:
 
 * 🛫 **Deployment Scripts**: Simplify and automate your deployment workflow.
 * ✅ **Hot Contract Reload**: Your frontend automatically adapts to changes in your smart contracts as you redeploy them.
-* 🪝 **Custom Hooks**: A collection of React hooks to simplify interactions with the IOTA blockchain
+* 🪝 **Custom Hooks**: A collection of React hooks to simplify interactions with the Sui blockchain
 * 🧱 **Components**: A library of common Web3 components to rapidly build your frontend.
-* 🔐 **Wallet Integration**: Connect to any IOTA-compatible wallet and interact with the IOTA network directly from your frontend.
+* 🔐 **Wallet Integration**: Connect to any Sui-compatible wallet and interact with the Sui network directly from your frontend.
 
 ## Components
 
@@ -201,16 +201,16 @@ ${allMdx.filter(content => content.includes('contributing/')).join('\n\n')}`;
   themeConfig: {
     image: 'img/logo-small.png',
     navbar: {
-      title: '🏗 Scaffold IOTA Docs',
+      title: '🏗 Scaffold Sui Docs',
       items: [
         {
-          href: 'https://github.com/arjanjohan/scaffold-iota-docs',
+          href: 'https://github.com/arjanjohan/scaffold-sui-docs',
           label: 'GitHub Docs',
           position: 'right',
         },
         {
-          href: 'https://github.com/arjanjohan/scaffold-iota',
-          label: 'GitHub Scaffold IOTA',
+          href: 'https://github.com/arjanjohan/scaffold-sui',
+          label: 'GitHub Scaffold Sui',
           position: 'right',
         },
       ],
@@ -235,12 +235,12 @@ ${allMdx.filter(content => content.includes('contributing/')).join('\n\n')}`;
           title: 'Github',
           items: [
             {
-              label: 'Scaffold IOTA',
-              href: 'https://github.com/arjanjohan/scaffold-iota',
+              label: 'Scaffold Sui',
+              href: 'https://github.com/arjanjohan/scaffold-sui',
             },
             {
               label: 'Docs',
-              href: 'https://github.com/arjanjohan/scaffold-iota-docs',
+              href: 'https://github.com/arjanjohan/scaffold-sui-docs',
             }
           ],
         },
